@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-image: url("dinobg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#game{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 3rem auto;
+}
+#block{
+    height: 70px;
+    width: 40px;
+    background-color: blue;
+    position: relative;
+    top: 230px;
+    left: 460px;
+    animation: move 1s linear infinite;
+}
+@keyframes move {
+    0%{
+        left: 468px;
+    }
+    100%{
+        left: -1px;
+    }
+}
+#dino{
+    position: relative;
+    top: 160px;
+    left: 0px;
+}
+#dino img{
+    height: 70px;
+    width: 67px;
+}
+#result{
+    height: 200px;
+    width: 400px;
+    background-color: cornflowerblue;
+    margin: 3rem auto;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+#score{
+    font-size: 2.2rem;
+    color: brown;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: cyan;
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+#box{
+    display: flex;
+    padding:2px 2px ;
+    margin: 2px 350px;
+    
+    color: rgb(20, 5, 5);
+    border-radius: 20px;
+
+}
+#scorebox{
+    
+    
+    color: rgb(20, 5, 5);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight:bold;
+
+}
