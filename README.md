@@ -1,0 +1,2 @@
+# DinoGame
+Practicing basic javascript.
